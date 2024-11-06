@@ -25,7 +25,7 @@ public class Main {
         //Set User's Birth Date in Calendar Object:
         Calendar userBirthDate = Calendar.getInstance();
         userBirthDate.set(Calendar.YEAR, birthYear);
-        userBirthDate.set(Calendar.MONTH, birthMonth);
+        userBirthDate.set(Calendar.MONTH, birthMonth-1);
         userBirthDate.set(Calendar.DAY_OF_MONTH, birthDay);
 
         //Calculate the Age:
